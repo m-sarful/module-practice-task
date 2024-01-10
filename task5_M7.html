@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling responsive Blog</title>
+    <style>
+        .blog{
+            border: 2px solid blue;
+            margin-top: 2rem;
+            display: flex;
+        }
+        .blog img{
+            width: 50%;
+        }
+        .travel-describe{
+            margin: auto 3rem;
+        }
+        @media screen and (max-width: 576px){
+            .blog{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .blog img{
+                width: 100%;
+            }
+            #blog2{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Everyone should travel our Country</h1>
+    <div class="blog">
+        <img src="./images/travel1.jpg" alt="">
+        <div class="travel-describe">
+            <h1>Rome is a Nice place</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo deserunt suscipit molestias earum excepturi nihil illo tempora veniam quasi ducimus similique ipsam, sint commodi dicta unde aliquam consectetur aut ab. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nulla necessitatibus sint eaque, odit rerum cumque excepturi maiores atque, delectus eius natus praesentium fugiat adipisci esse! Temporibus dolore omnis consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor consectetur voluptatum dolore nobis velit illum ipsum natus tempora minima nisi quia, quisquam maxime fugiat, sed ipsam. Deleniti, dolore neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt atque aperiam harum. Maxime magnam maiores esse eveniet, porro quae repellat assumenda voluptas ullam delectus id quaerat, mollitia in veritatis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis recusandae aspernatur dolores, unde quod nemo optio fuga, suscipit inventore tempore fugit! Tenetur molestias sapiente soluta vitae perspiciatis atque laboriosam.</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam possimus eligendi laboriosam perspiciatis autem itaque error porro iure? Consequatur, rerum! Assumenda harum placeat impedit velit, dolor maxime aut dolore reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dicta deserunt. Quis animi quibusdam fuga fugiat reiciendis modi quo ea suscipit esse, maxime natus voluptas eaque ullam sed illum pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae cum eos sequi aperiam, laudantium itaque voluptatum commodi voluptas quis necessitatibus, maxime, ipsum perferendis provident. Earum nobis vero fugit ab.
+             <button>See more</button></p>
+        </div>
+    </div>
+    <div class="blog" id="blog2">
+       
+        <div class="travel-describe">
+            <h1>Rome is a Nice place</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo deserunt suscipit molestias earum excepturi nihil illo tempora veniam quasi ducimus similique ipsam, sint commodi dicta unde aliquam consectetur aut ab. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nulla necessitatibus sint eaque, odit rerum cumque excepturi maiores atque, delectus eius natus praesentium fugiat adipisci esse! Temporibus dolore omnis consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor consectetur voluptatum dolore nobis velit illum ipsum natus tempora minima nisi quia, quisquam maxime fugiat, sed ipsam. Deleniti, dolore neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt atque aperiam harum. Maxime magnam maiores esse eveniet, porro quae repellat assumenda voluptas ullam delectus id quaerat, mollitia in veritatis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis recusandae aspernatur dolores, unde quod nemo optio fuga, suscipit inventore tempore fugit! Tenetur molestias sapiente soluta vitae perspiciatis atque laboriosam.</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam possimus eligendi laboriosam perspiciatis autem itaque error porro iure? Consequatur, rerum! Assumenda harum placeat impedit velit, dolor maxime aut dolore reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dicta deserunt. Quis animi quibusdam fuga fugiat reiciendis modi quo ea suscipit esse, maxime natus voluptas eaque ullam sed illum pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae cum eos sequi aperiam, laudantium itaque voluptatum commodi voluptas quis necessitatibus, maxime, ipsum perferendis provident. Earum nobis vero fugit ab.
+             <button>See more</button></p>
+        </div>
+         <img src="./images/travel2.jpg" alt="">
+    </div>
+
+</body>
+</html>
