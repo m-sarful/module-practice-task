@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1 module 7</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+      
+        .left, .right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            height: 350px;
+            border: 1px solid red;
+            background-color: gray;
+            align-items: center;
+        }
+        .right{
+            width: 55%;
+            height: 350px;
+            border: 1px solid green;
+            background-color: bisque;
+        }
+        @media screen and (max-width: 576px){
+            .container{
+                display: flex;
+                flex-direction: column;
+              
+            }
+            .left{
+                background-color: cornsilk;
+                width: 100%;
+                height: 150px;
+            }
+            .right{
+                margin-top: 10px;
+                width: 100%;
+                background-color: darkkhaki;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Left</h1>
+        </div>
+        <div class="right">
+            <h1>Right</h1>
+        </div>
+    </div>
+</body>
+</html>
