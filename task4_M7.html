@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Shop</title>
+    <style>
+        
+        .chicken-burger{
+            margin-top: 2dvb;
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid green;
+        }
+        .chicken-burger img{
+            width: 50%;
+        }
+        .burger-describe{
+            margin-left: 1rem;
+        }
+        button{
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 0.5rem;
+        }
+        @media screen and (max-width: 576px){
+            .chicken-burger{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .chicken-burger img{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to our Fast-Food Shop</h1>
+    <div class="burger">
+        
+        <div class="chicken-burger">
+            <img src="./images/burger1.jpg" alt="">
+            <div class="burger-describe">
+            <h1>Chicken Burger</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nesciunt ad, sit cum doloribus ipsa, sed nobis ullam laborum voluptatum accusamus officiis labore nam et? Sunt dignissimos iure laudantium inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusantium quaerat consequatur natus ad, quas, placeat quidem molestias suscipit quae culpa, rem a adipisci ab labore obcaecati esse saepe mollitia!</p>
+             <button>Buy Now</button>
+             </div>
+        </div>
+        <div class="chicken-burger">
+            <img src="./images/burger2.jpg" alt="">
+            <div class="burger-describe">
+            <h1>Beef Burger</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nesciunt ad, sit cum doloribus ipsa, sed nobis ullam laborum voluptatum accusamus officiis labore nam et? Sunt dignissimos iure laudantium inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusantium quaerat consequatur natus ad, quas, placeat quidem molestias suscipit quae culpa, rem a adipisci ab labore obcaecati esse saepe mollitia!</p>
+             <button>Buy Now</button>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
