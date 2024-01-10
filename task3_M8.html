@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image responsive layout</title>
+    <style>
+      
+        img{
+            height: 100vh;
+            width: 100vw;
+        }
+        @media screen and (min-width: 576px) and (min-width: 992px){
+            img{
+                background-color: red;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="picture">
+        <img src="./images/apple.png" alt="">
+    </div>
+</body>
+</html>
